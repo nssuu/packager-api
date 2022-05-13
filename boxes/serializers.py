@@ -6,4 +6,8 @@ from .models import Box
 class BoxSerializer(serializers.ModelSerializer):
     class Meta:
         model = Box
-        fields = ('id', 'name', 'volume')
+        fields = (
+            'id', 
+            'name', 
+            'volume'
+        )

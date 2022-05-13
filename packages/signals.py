@@ -1,4 +1,3 @@
-from xml.dom import ValidationErr
 from django.db.models.signals import pre_save
 from django.dispatch import receiver
 from rest_framework import exceptions
